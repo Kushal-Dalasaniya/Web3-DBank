@@ -1,0 +1,6 @@
+service : {
+  compoundInterest: () -> () oneway;
+  getAmount: () -> (float64) query;
+  topDown: (float64) -> () oneway;
+  topUp: (float64) -> () oneway;
+}
